@@ -14,19 +14,30 @@ Copyright (C) 2015 The Android Open Source Project
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="animate"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/tick_cross"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
         android:layout_gravity="center"
-        android:src="@drawable/ic_tick" />
+        android:src="@drawable/ic_tick"
+        android:onClick="animate_tick_cross"/>
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/burger_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_burger"
+        android:onClick="animate_burger_arrow"/>
+
+</LinearLayout>

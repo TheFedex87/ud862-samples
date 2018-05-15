@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_burger">
+
+    <target
+        android:name="@string/burger"
+        android:animation="@animator/burger_to_arrow" />
+
+    <target
+        android:name="@string/groupBurgerArrow"
+        android:animation="@animator/rotate_burger_to_arrow" />
+
+</animated-vector>

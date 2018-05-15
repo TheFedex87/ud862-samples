@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- geometry -->
+    <integer name="viewport_width_ba">24</integer>
+    <integer name="viewport_height_ba">24</integer>
+    <integer name="viewport_center_x_ba">11</integer>
+    <integer name="viewport_center_y_ba">9</integer>
+    <!--<string name="path_tick">M19.6,7 L10.4,16.2 M4.8,13.4 L9,17.6</string>-->
+    <string name="path_burger">M3,5 L19,5 M3,9 L19,9 M3,13 L19,13</string>
+    <!--<string name="path_burger">M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z</string>-->
+
+    <!--<string name="path_cross">M17.6,6.4 L6.4,17.6 M6.4,6.4 L17.6,17.6</string>-->
+    <string name="path_arrow"> M3,9 L9,3 M3.5,9 L19,9 M3,9 L 9,15 </string>
+    <!--<string name="path_arrow">M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z</string>-->
+    <integer name="stroke_width_ba">2</integer>
+
+    <!-- names -->
+    <string name="burger">burger</string>
+    <string name="arrow">arrow</string>
+    <string name="groupBurgerArrow">groupBurgerArrow</string>
+
+    <!-- drawing -->
+    <color name="stroke_color_ba">#999</color>
+
+    <!-- timing -->
+    <integer name="duration_ba">450</integer>
+</resources>
